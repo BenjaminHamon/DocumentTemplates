@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<office:document
+        xmlns:calcext="urn:org:documentfoundation:names:experimental:calc:xmlns:calcext:1.0"
+        xmlns:chart="urn:oasis:names:tc:opendocument:xmlns:chart:1.0"
+        xmlns:config="urn:oasis:names:tc:opendocument:xmlns:config:1.0"
+        xmlns:css3t="http://www.w3.org/TR/css3-text/"
+        xmlns:dc="http://purl.org/dc/elements/1.1/"
+        xmlns:dom="http://www.w3.org/2001/xml-events"
+        xmlns:dr3d="urn:oasis:names:tc:opendocument:xmlns:dr3d:1.0"
+        xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0"
+        xmlns:drawooo="http://openoffice.org/2010/draw"
+        xmlns:field="urn:openoffice:names:experimental:ooo-ms-interop:xmlns:field:1.0"
+        xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0"
+        xmlns:form="urn:oasis:names:tc:opendocument:xmlns:form:1.0"
+        xmlns:formx="urn:openoffice:names:experimental:ooxml-odf-interop:xmlns:form:1.0"
+        xmlns:grddl="http://www.w3.org/2003/g/data-view#"
+        xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0"
+        xmlns:math="http://www.w3.org/1998/Math/MathML"
+        xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0"
+        xmlns:number="urn:oasis:names:tc:opendocument:xmlns:datastyle:1.0"
+        xmlns:of="urn:oasis:names:tc:opendocument:xmlns:of:1.2"
+        xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0"
+        xmlns:officeooo="http://openoffice.org/2009/office"
+        xmlns:ooo="http://openoffice.org/2004/office"
+        xmlns:oooc="http://openoffice.org/2004/calc"
+        xmlns:ooow="http://openoffice.org/2004/writer"
+        xmlns:rpt="http://openoffice.org/2005/report"
+        xmlns:script="urn:oasis:names:tc:opendocument:xmlns:script:1.0"
+        xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0"
+        xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0"
+        xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0"
+        xmlns:tableooo="http://openoffice.org/2009/table"
+        xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0"
+        xmlns:xforms="http://www.w3.org/2002/xforms"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+        xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        office:mimetype="application/vnd.oasis.opendocument.text"
+        office:version="1.3">
+
+    <office:meta>
+        <meta:user-defined meta:name="Language">English</meta:user-defined>
+    </office:meta>
+
+    <office:styles>
+
+        <style:style
+                style:name="Custom_-_Any_Text"
+                style:display-name="Custom - Any Text"
+                style:family="paragraph">
+            <style:text-properties
+                    fo:font-family="Calibri"
+                    style:font-family-generic="swiss"
+                    style:font-name="Calibri"
+                    style:font-pitch="variable"
+                    style:font-style-name="Regular"/>
+        </style:style>
+
+        <style:style
+                style:name="Custom_-_Any_Heading"
+                style:display-name="Custom - Any Heading"
+                style:family="paragraph"
+                style:parent-style-name="Custom_-_Any_Text">
+            <style:text-properties
+                    fo:font-size="24pt"/>
+        </style:style>
+
+        <style:style
+                style:name="Custom_-_Any_Paragraph"
+                style:display-name="Custom - Any Paragraph"
+                style:family="paragraph"
+                style:parent-style-name="Custom_-_Any_Text">
+            <style:paragraph-properties
+                    fo:text-align="justify"/>
+            <style:text-properties
+                    fo:font-size="12pt"/>
+        </style:style>
+
+        <style:style
+                style:name="Custom_-_Any_Page_Fields"
+                style:display-name="Custom - Any Page Fields"
+                style:family="paragraph"
+                style:parent-style-name="Custom_-_Any_Text">
+            <style:paragraph-properties>
+                <style:tab-stops>
+                    <style:tab-stop style:position="17.5cm" style:type="right"/>
+                </style:tab-stops>
+            </style:paragraph-properties>
+            <style:text-properties
+                    fo:color="#666666"
+                    fo:font-size="10pt"/>
+        </style:style>
+
+        <style:style
+                style:name="Custom_-_Document_Title_Page_Heading"
+                style:display-name="Custom - Document Title Page Heading"
+                style:family="paragraph"
+                style:parent-style-name="Custom_-_Any_Heading">
+            <style:paragraph-properties
+                    fo:margin-bottom="0.25cm"
+                    fo:margin-top="0.25cm"
+                    fo:text-align="center"/>
+            <style:text-properties
+                    fo:font-size="48pt"/>
+        </style:style>
+
+        <style:style
+                style:name="Custom_-_Document_Title_Page_Fields"
+                style:display-name="Custom - Document Title Page Fields"
+                style:family="paragraph"
+                style:parent-style-name="Custom_-_Any_Text">
+            <style:paragraph-properties
+                    fo:line-height="120%"
+                    fo:text-align="center"/>
+            <style:text-properties
+                    fo:font-size="18pt"/>
+        </style:style>
+
+        <style:style
+                style:name="Custom_-_Document_Title_Page_Separator"
+                style:display-name="Custom - Document Title Page Separator"
+                style:family="paragraph"
+                style:parent-style-name="Custom_-_Any_Text">
+            <style:paragraph-properties
+                    fo:margin-top="0.25cm"
+                    fo:margin-bottom="0.25cm"
+                    fo:text-align="center"/>
+        </style:style>
+
+        <style:style
+                style:name="Custom_-_Document_Title"
+                style:display-name="Custom - Document Title"
+                style:family="paragraph"
+                style:parent-style-name="Custom_-_Document_Title_Page_Heading"
+                style:master-page-name="Custom_-_Title_Page">
+            <style:paragraph-properties
+                    fo:margin-bottom="1cm"
+                    fo:margin-top="2cm"/>
+        </style:style>
+
+        <style:style
+                style:name="Custom_-_Document_Title_Extra"
+                style:display-name="Custom - Document Title Extra"
+                style:family="paragraph"
+                style:parent-style-name="Custom_-_Document_Title_Page_Heading">
+            <style:paragraph-properties
+                    fo:margin-bottom="1cm"
+                    fo:margin-top="1cm"/>
+            <style:text-properties
+                    fo:font-size="40pt"
+                    fo:font-style="italic"/>
+        </style:style>
+
+        <style:style
+                style:name="Custom_-_Document_Title_Author"
+                style:display-name="Custom - Document Title Author"
+                style:family="paragraph"
+                style:parent-style-name="Custom_-_Document_Title_Page_Heading">
+            <style:paragraph-properties
+                    fo:margin-bottom="1cm"
+                    fo:margin-top="1cm"/>
+            <style:text-properties
+                    fo:font-size="32pt"/>
+        </style:style>
+
+        <style:style
+                style:name="Custom_-_Section_Heading_Prefix"
+                style:display-name="Custom - Section Heading Prefix"
+                style:family="paragraph"
+                style:parent-style-name="Custom_-_Any_Heading"
+                style:next-style-name="Custom_-_Section_Heading_Text"
+                style:master-page-name="Custom_-_Content_Page"
+                style:default-outline-level="1">
+            <style:paragraph-properties
+                    fo:break-before="page"
+                    fo:margin-bottom="0.25cm"
+                    fo:text-align="center"/>
+            <style:text-properties
+                    fo:font-size="20pt"/>
+        </style:style>
+
+        <style:style
+                style:name="Custom_-_Section_Heading_Text"
+                style:display-name="Custom - Section Heading Text"
+                style:family="paragraph"
+                style:parent-style-name="Custom_-_Any_Heading"
+                style:next-style-name="Custom_-_Section_Paragraph"
+                style:default-outline-level="2">
+            <style:paragraph-properties
+                    fo:margin-bottom="1cm"
+                    fo:text-align="center"/>
+            <style:text-properties
+                    fo:font-size="24pt"
+                    fo:font-style="italic"/>
+        </style:style>
+
+        <style:style
+                style:name="Custom_-_Section_Paragraph"
+                style:display-name="Custom - Section Paragraph"
+                style:family="paragraph"
+                style:parent-style-name="Custom_-_Any_Paragraph">
+            <style:paragraph-properties
+                    fo:line-height="120%"
+                    fo:margin-bottom="0.25cm"
+                    fo:text-indent="0.5cm"/>
+        </style:style>
+
+        <style:style
+                style:name="Custom_-_Section_Paragraph_Extra"
+                style:display-name="Custom - Section Paragraph Extra"
+                style:family="paragraph"
+                style:parent-style-name="Custom_-_Section_Paragraph">
+            <style:text-properties fo:font-style="italic"/>
+        </style:style>
+
+        <style:style
+                style:name="Custom_-_Section_Context"
+                style:display-name="Custom - Section Context"
+                style:family="paragraph"
+                style:parent-style-name="Custom_-_Any_Paragraph"
+                style:next-style-name="Custom_-_Section_Paragraph">
+            <style:paragraph-properties
+                    fo:margin-bottom="0.5cm"
+                    fo:text-align="center"/>
+            <style:text-properties
+                    fo:font-weight="bold"/>
+        </style:style>
+
+        <style:style
+                style:name="Custom_-_Section_Separator"
+                style:display-name="Custom - Section Separator"
+                style:family="paragraph"
+                style:parent-style-name="Custom_-_Any_Text"
+                style:next-style-name="Custom_-_Section_Paragraph">
+            <style:paragraph-properties
+                    fo:margin-bottom="0.75cm"
+                    fo:margin-top="0.75cm"
+                    fo:text-align="center"/>
+        </style:style>
+
+        <style:style
+                style:name="Custom_-_X_Extra_Lyrics"
+                style:display-name="Custom - X Extra Lyrics"
+                style:family="paragraph"
+                style:parent-style-name="Custom_-_Any_Text">
+            <style:paragraph-properties
+                    fo:text-align="center"/>
+            <style:text-properties
+                    fo:font-style="italic"/>
+        </style:style>
+
+        <style:style
+                style:name="Custom_-_Any_Text"
+                style:display-name="Custom - Any Text"
+                style:family="text">
+            <style:text-properties
+                style:font-name="Calibri"
+                fo:font-family="Calibri"
+                fo:font-size="12pt"/>
+        </style:style>
+
+        <style:style
+                style:name="Custom_-_Any_Text_Extra"
+                style:display-name="Custom - Any Text Extra"
+                style:family="text"
+                style:parent-style-name="Custom_-_Any_Text">
+            <style:text-properties fo:font-style="italic"/>
+        </style:style>
+
+        <style:style
+                style:name="Custom_-_Emphasis"
+                style:display-name="Custom - Emphasis"
+                style:family="text"
+                style:parent-style-name="Custom_-_Any_Text">
+            <style:text-properties
+                    fo:font-style="italic"/>
+        </style:style>
+
+        <number:date-style
+                style:name="Custom_-_Date_As_Long_Text"
+                style:display-name="Custom - Date As Long Text"
+                number:language="en"
+                number:country="US">
+            <number:day/>
+            <number:text> </number:text>
+            <number:month number:style="long" number:textual="true"/>
+            <number:text> </number:text>
+            <number:year number:style="long"/>
+        </number:date-style>
+
+        <number:date-style
+                style:name="Custom_-_Date_As_Year_Only"
+                style:display-name="Custom - Date As Year Only"
+                number:language="en"
+                number:country="US">
+            <number:year number:style="long"/>
+        </number:date-style>
+
+    </office:styles>
+
+    <office:automatic-styles>
+
+        <style:page-layout
+                style:name="Custom_-_Title_Page_Layout"
+                style:display-name="Custom - Title Page Layout">
+            <style:page-layout-properties
+                    fo:margin-bottom="2cm"
+                    fo:margin-left="2cm"
+                    fo:margin-right="2cm"
+                    fo:margin-top="2cm"
+                    fo:page-height="29.7cm"
+                    fo:page-width="21cm"/>
+        </style:page-layout>
+
+        <style:page-layout
+                style:name="Custom_-_Content_Page_Layout"
+                style:display-name="Custom - Content Page Layout">
+            <style:page-layout-properties
+                    fo:margin-bottom="1.5cm"
+                    fo:margin-left="2cm"
+                    fo:margin-right="2cm"
+                    fo:margin-top="2cm"
+                    fo:page-height="29.7cm"
+                    fo:page-width="21cm"/>
+            <style:footer-style>
+                <style:header-footer-properties
+                        fo:min-height="1cm"
+                        fo:margin-top="0.5cm"/>
+            </style:footer-style>
+        </style:page-layout>
+
+    </office:automatic-styles>
+
+    <office:master-styles>
+
+        <style:master-page
+                style:name="Custom_-_Title_Page"
+                style:display-name="Custom - Title Page"
+                style:page-layout-name="Custom_-_Title_Page_Layout"/>
+
+        <style:master-page
+                style:name="Custom_-_Content_Page"
+                style:display-name="Custom - Content Page"
+                style:page-layout-name="Custom_-_Content_Page_Layout">
+            <style:footer>
+                <text:p text:style-name="Custom_-_Any_Page_Fields"><text:chapter text:display="name" text:outline-level="1"/> - <text:chapter text:display="name" text:outline-level="2"/><text:tab/>page <text:page-number text:select-page="current"/> of <text:page-count/></text:p>
+            </style:footer>
+        </style:master-page>
+
+    </office:master-styles>
+
+    <office:body>
+        <office:text>
+            <text:p text:style-name="Custom_-_Document_Title">&lt;title&gt;</text:p>
+            <text:p text:style-name="Custom_-_Document_Title_Extra">&lt;subtitle&gt;</text:p>
+            <text:p text:style-name="Custom_-_Document_Title_Page_Separator"/>
+            <text:p text:style-name="Custom_-_Document_Title_Page_Separator"/>
+            <text:p text:style-name="Custom_-_Document_Title_Author">by &lt;authors&gt;</text:p>
+            <text:p text:style-name="Custom_-_Document_Title_Page_Separator"/>
+            <text:p text:style-name="Custom_-_Document_Title_Page_Separator"/>
+            <text:p text:style-name="Custom_-_Document_Title_Page_Separator"/>
+            <text:p text:style-name="Custom_-_Document_Title_Page_Fields">Project &lt;codename&gt;</text:p>
+            <text:p text:style-name="Custom_-_Document_Title_Page_Separator"/>
+            <text:p text:style-name="Custom_-_Document_Title_Page_Fields">Version 1.0 (Draft <text:editing-cycles></text:editing-cycles>)</text:p>
+            <text:p text:style-name="Custom_-_Document_Title_Page_Fields">
+                <text:date style:data-style-name="Custom_-_Date_As_Long_Text"></text:date>
+            </text:p>
+            <text:p text:style-name="Custom_-_Document_Title_Page_Separator"/>
+            <text:p text:style-name="Custom_-_Document_Title_Page_Fields">Copyright © <text:date style:data-style-name="Custom_-_Date_As_Year_Only"></text:date><text:s/>&lt;authors&gt;</text:p>
+            <text:h text:style-name="Custom_-_Section_Heading_Prefix" text:outline-level="1">Chapter 1</text:h>
+            <text:h text:style-name="Custom_-_Section_Heading_Text" text:outline-level="2">My First Chapter</text:h>
+            <text:p text:style-name="Custom_-_Section_Paragraph_Extra">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ut sodales
+                odio. Aliquam nunc nisl, semper in sapien vel, dignissim eleifend enim. Nunc vel vestibulum sem, vitae semper neque. Aliquam molestie dolor
+                malesuada sollicitudin efficitur. Maecenas lorem orci, dapibus ac odio nec, dignissim rutrum elit. Sed tincidunt purus vitae tellus mollis
+                sagittis. Phasellus vehicula, leo in vulputate eleifend, lacus justo pulvinar quam, quis convallis nulla mauris rutrum ipsum. Nullam vel iaculis
+                turpis. Nulla pharetra aliquam urna ac luctus. Etiam commodo porttitor est quis mattis. Aliquam erat volutpat. Interdum et malesuada fames ac
+                ante ipsum primis in faucibus. Suspendisse eleifend purus ut finibus fringilla. Etiam vel mi molestie ante ultrices laoreet eget vel quam.
+                Aenean volutpat ipsum felis, a ullamcorper dui laoreet in.</text:p>
+            <text:p text:style-name="Custom_-_Section_Paragraph_Extra">Vestibulum varius arcu et arcu elementum eleifend. Duis tincidunt congue
+                pharetra. Phasellus ac dolor facilisis, aliquam dui at, molestie ante. Donec lobortis ligula quam, vel sollicitudin dolor sagittis a. Ut
+                eleifend ac sapien vel efficitur. Nunc tincidunt nunc ac dolor commodo consequat a nec justo. Vivamus nec porttitor ligula. Praesent rhoncus
+                sodales lacinia. Sed placerat erat et ex commodo, a lobortis turpis dictum. Etiam dignissim quis augue at semper. Phasellus gravida porta ligula
+                quis pellentesque. Phasellus et elit orci. Suspendisse potenti.</text:p>
+            <text:p text:style-name="Custom_-_Section_Separator">***</text:p>
+            <text:p text:style-name="Custom_-_Section_Context">Here – Today</text:p>
+            <text:p text:style-name="Custom_-_Section_Paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam bibendum lectus ut nisi
+                faucibus dapibus. Integer tincidunt ante dui. Phasellus ullamcorper metus diam, a lobortis lacus sollicitudin ut. In euismod malesuada orci nec
+                viverra. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula ac arcu imperdiet auctor. Nullam lobortis nec urna vitae
+                feugiat. Nulla metus sem, vehicula in lorem sit amet, interdum ultrices leo. Vivamus at posuere ligula. In fringilla laoreet tellus maximus
+                feugiat. Donec rutrum magna ut tempus accumsan. Vivamus condimentum lacus id magna elementum, a malesuada mauris volutpat. In et purus vel justo
+                ultricies ornare id vitae mi. Etiam bibendum eros ut ligula facilisis, eu vulputate dui aliquam. Phasellus nulla sem, blandit vitae est non,
+                posuere luctus enim.</text:p>
+            <text:p text:style-name="Custom_-_Section_Paragraph">Cras eget neque semper, cursus eros at, bibendum nisl. Morbi accumsan nunc
+                pellentesque, pharetra ipsum vel, convallis libero. Morbi condimentum hendrerit congue. Ut facilisis dolor et lorem facilisis, sagittis lacinia
+                nibh tempor. Nam imperdiet fermentum sem sit amet porttitor. In consectetur vehicula imperdiet. Aliquam eleifend turpis vitae tincidunt
+                fringilla.</text:p>
+            <text:p text:style-name="Custom_-_Section_Paragraph">Mauris at eros ac turpis varius tempus quis eu leo. Mauris
+                feugiat eu dui at tincidunt. Sed ex libero, condimentum in dui in, iaculis tincidunt lectus. Ut at facilisis mi. Mauris venenatis mi sed sem
+                tristique, non aliquam sapien mattis. Aenean justo est, sollicitudin et metus vitae, tincidunt laoreet sem. Vestibulum sed sollicitudin odio,
+                sit amet congue eros. Quisque vel vehicula turpis. Pellentesque dapibus dapibus sem sed finibus. Vestibulum molestie facilisis leo et suscipit.
+                Nunc congue mi id condimentum vulputate.</text:p>
+            <text:p text:style-name="Custom_-_Section_Paragraph">In porttitor, velit in consequat porttitor, tortor lorem condimentum metus, et rhoncus
+                felis sapien et dui. Fusce et turpis convallis, aliquam arcu ac, facilisis tortor. Maecenas vehicula, est ut hendrerit viverra, orci velit
+                ultrices ante, id blandit purus ligula in nisi. Mauris et placerat purus, id dictum felis. Nulla sagittis mauris auctor nibh pharetra pulvinar.
+                Maecenas luctus egestas orci id consectetur. Aliquam et leo libero. Aliquam ante ligula, convallis vitae neque quis, laoreet pulvinar ex.
+                Praesent ultricies nulla eget libero scelerisque, non tempor dolor auctor. Donec rutrum ipsum ut eros hendrerit venenatis.</text:p>
+            <text:p text:style-name="Custom_-_Section_Paragraph">Morbi venenatis ex vitae consequat malesuada. Vestibulum aliquam in diam a eleifend.
+                Vestibulum eu dui mollis, laoreet libero eu, facilisis justo. In quis scelerisque dui, id vulputate nunc. Ut interdum tellus in dui suscipit,
+                vel pulvinar nunc porta. Pellentesque vel condimentum nulla, ac congue ex. Donec at elit ullamcorper, tincidunt mi rhoncus, euismod sapien. Nam
+                efficitur nunc et volutpat tincidunt. Morbi at urna elit. Donec ac nulla et ipsum interdum egestas. Praesent sed feugiat tellus. Fusce aliquam,
+                tortor faucibus condimentum scelerisque, justo nulla porttitor ante, faucibus iaculis nibh risus sed purus. Sed nec neque urna.</text:p>
+            <text:p text:style-name="Custom_-_Section_Paragraph">In hac habitasse platea dictumst. Donec mollis porttitor elit ac luctus. Nam sit amet
+                accumsan turpis. Donec viverra tincidunt augue id tempus. Sed venenatis tincidunt enim, eget laoreet est porttitor consequat. Sed gravida mollis
+                est, non commodo metus semper nec. Phasellus elit turpis, lobortis ut turpis non, pretium rhoncus nunc. Integer vel tellus at nisi posuere
+                lobortis. Quisque urna ipsum, semper et ullamcorper ut, porttitor vel nulla. Aliquam ut ipsum vitae magna tempor lacinia in a libero. Nullam non
+                tempus nisi, a fringilla lorem. Donec quis elementum purus. Sed iaculis ante tortor, at dictum ex condimentum a. Integer efficitur auctor nunc,
+                nec eleifend quam venenatis eu. Donec commodo enim justo, in condimentum eros consectetur eget.</text:p>
+            <text:p text:style-name="Custom_-_Section_Paragraph">Donec dolor mauris, tincidunt in lacinia id, tincidunt id nibh. Nulla interdum tortor
+                sit amet ipsum volutpat, ullamcorper semper arcu accumsan. Vestibulum ac purus quis dolor ultricies cursus ut in elit. Donec suscipit, nulla
+                vitae elementum aliquam, turpis urna consectetur est, eget facilisis lacus erat ac nisi. Nam sed malesuada magna, vitae condimentum leo. In
+                molestie mauris lacus, id efficitur turpis venenatis sed. Proin in erat purus. Sed sit amet velit quis ipsum molestie tincidunt. Quisque gravida
+                magna vel ligula venenatis, imperdiet mollis quam dictum. Donec sed vestibulum enim. Aenean imperdiet lacinia feugiat. Nunc semper ac nunc eu
+                venenatis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nullam malesuada fringilla lectus, vitae congue neque dictum vitae.</text:p>
+            <text:p text:style-name="Custom_-_Section_Paragraph">Sed est libero, luctus eu orci ac, mollis commodo nisl. Fusce
+                vel leo nec magna semper rhoncus. Nam mattis sapien interdum accumsan auctor. Aliquam efficitur lectus non blandit fringilla. Duis interdum
+                ultrices lacus, non fermentum erat sagittis quis. Phasellus consequat sagittis massa vehicula euismod. Aliquam libero justo, bibendum id
+                ultrices quis, fringilla sit amet augue. Curabitur aliquam felis orci, eget volutpat risus faucibus nec. Proin vitae efficitur lorem. Aliquam
+                est mi, consectetur ut augue a, tristique varius sem. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;</text:p>
+            <text:p text:style-name="Custom_-_Section_Paragraph">Mauris quis tempus turpis, et aliquam diam. Proin aliquet lacus sit amet ante porta
+                scelerisque a eget neque. Sed vitae erat urna. Suspendisse eleifend ultricies velit vitae tempor. Donec tincidunt aliquet sollicitudin. Aliquam
+                ut maximus libero. Ut porta elit et arcu eleifend iaculis. Duis id quam a massa maximus cursus. Praesent aliquam tellus sed nibh porttitor, id
+                dignissim odio fermentum. Proin interdum suscipit tortor, molestie iaculis nibh commodo id. Vivamus eleifend felis ut mauris aliquet, sit amet
+                tristique nibh sollicitudin. Etiam mattis tortor ac ante elementum accumsan. Maecenas at justo nec nibh ornare vulputate quis sed arcu. Interdum
+                et malesuada fames ac ante ipsum primis in faucibus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;
+                Proin eu tincidunt urna, non ullamcorper mauris.</text:p>
+            <text:p text:style-name="Custom_-_Section_Paragraph">Morbi id semper sem. Pellentesque luctus, urna scelerisque pulvinar sagittis, nibh
+                erat facilisis nisi, vitae commodo leo tortor vel augue. Sed porta lobortis enim, porttitor placerat magna dignissim non. Proin vitae urna
+                aliquam est consequat facilisis sed sed nisi. Duis sagittis interdum mauris sed porta. Phasellus et mauris eget sem maximus consequat sed at
+                turpis. Aliquam accumsan ac erat a vulputate. Pellentesque sit amet molestie massa, quis hendrerit nulla. Vestibulum at commodo velit. </text:p>
+            <text:h text:style-name="Custom_-_Section_Heading_Prefix" text:outline-level="1">Interlude</text:h>
+            <text:h text:style-name="Custom_-_Section_Heading_Text" text:outline-level="2">A song</text:h>
+            <text:p text:style-name="Custom_-_X_Extra_Lyrics">Sed maximus sapien sit amet odio elementum consectetur.</text:p>
+            <text:p text:style-name="Custom_-_X_Extra_Lyrics">Pellentesque sollicitudin purus vel rhoncus rhoncus.</text:p>
+            <text:p text:style-name="Custom_-_X_Extra_Lyrics">Aenean in felis et lorem elementum malesuada et at dolor.</text:p>
+            <text:p text:style-name="Custom_-_X_Extra_Lyrics">Vestibulum ac purus non massa viverra ornare.</text:p>
+            <text:p text:style-name="Custom_-_X_Extra_Lyrics">Aliquam condimentum nibh nec accumsan posuere.</text:p>
+            <text:p text:style-name="Custom_-_X_Extra_Lyrics"></text:p>
+            <text:p text:style-name="Custom_-_X_Extra_Lyrics">Ut rutrum enim vel neque condimentum interdum.</text:p>
+            <text:p text:style-name="Custom_-_X_Extra_Lyrics">Praesent posuere mauris ac lorem mattis ullamcorper.</text:p>
+            <text:p text:style-name="Custom_-_X_Extra_Lyrics">Curabitur semper est vel venenatis egestas.</text:p>
+        </office:text>
+    </office:body>
+
+</office:document>
