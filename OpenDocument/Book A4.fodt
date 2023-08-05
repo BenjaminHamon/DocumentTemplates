@@ -94,6 +94,13 @@
         </style:style>
 
         <style:style
+                style:name="Custom_-_Cover_Anchor"
+                style:display-name="Custom - Cover Anchor"
+                style:family="paragraph"
+                style:parent-style-name="Custom_-_Any_Text"
+                style:master-page-name="Custom_-_Cover_Page"/>
+
+        <style:style
                 style:name="Custom_-_Document_Title_Page_Heading"
                 style:display-name="Custom - Document Title Page Heading"
                 style:family="paragraph"
@@ -303,6 +310,29 @@
     <office:automatic-styles>
 
         <style:page-layout
+                style:name="Custom_-_Cover_Page_Layout"
+                style:display-name="Custom - Cover Page Layout">
+            <style:page-layout-properties
+                    fo:margin-bottom="0cm"
+                    fo:margin-left="0cm"
+                    fo:margin-right="0cm"
+                    fo:margin-top="0cm"
+                    fo:page-height="25.6cm"
+                    fo:page-width="16cm"/>
+        </style:page-layout>
+
+        <style:style
+                style:name="Custom_-_Cover_Graphics"
+                style:family="graphic"
+                style:parent-style-name="Graphics">
+            <style:graphic-properties
+                    style:horizontal-pos="center"
+                    style:horizontal-rel="page"
+                    style:vertical-pos="middle"
+                    style:vertical-rel="page"/>
+        </style:style>
+
+        <style:page-layout
                 style:name="Custom_-_Title_Page_Layout"
                 style:display-name="Custom - Title Page Layout">
             <style:page-layout-properties
@@ -336,6 +366,11 @@
     <office:master-styles>
 
         <style:master-page
+                style:name="Custom_-_Cover_Page"
+                style:display-name="Custom - Cover Page"
+                style:page-layout-name="Custom_-_Cover_Page_Layout"/>
+
+        <style:master-page
                 style:name="Custom_-_Title_Page"
                 style:display-name="Custom - Title Page"
                 style:page-layout-name="Custom_-_Title_Page_Layout"/>
@@ -353,6 +388,21 @@
 
     <office:body>
         <office:text>
+            <draw:frame
+                    draw:style-name="Custom_-_Cover_Graphics"
+                    draw:name="cover"
+                    text:anchor-type="page"
+                    text:anchor-page-number="1"
+                    svg:width="16cm"
+                    svg:height="25.6cm">
+                <draw:image
+                        xlink:href="../PlaceholderCover.jpeg"
+                        xlink:type="simple"
+                        xlink:show="embed"
+                        xlink:actuate="onLoad"
+                        draw:mime-type="image/jpeg"/>
+            </draw:frame>
+            <text:p text:style-name="Custom_-_Cover_Anchor"></text:p>
             <text:p text:style-name="Custom_-_Document_Title">&lt;title&gt;</text:p>
             <text:p text:style-name="Custom_-_Document_Title_Extra">&lt;subtitle&gt;</text:p>
             <text:p text:style-name="Custom_-_Document_Title_Page_Separator"/>
