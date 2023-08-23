@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<office:document
+        xmlns:calcext="urn:org:documentfoundation:names:experimental:calc:xmlns:calcext:1.0"
+        xmlns:chart="urn:oasis:names:tc:opendocument:xmlns:chart:1.0"
+        xmlns:config="urn:oasis:names:tc:opendocument:xmlns:config:1.0"
+        xmlns:css3t="http://www.w3.org/TR/css3-text/"
+        xmlns:dc="http://purl.org/dc/elements/1.1/"
+        xmlns:dom="http://www.w3.org/2001/xml-events"
+        xmlns:dr3d="urn:oasis:names:tc:opendocument:xmlns:dr3d:1.0"
+        xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0"
+        xmlns:drawooo="http://openoffice.org/2010/draw"
+        xmlns:field="urn:openoffice:names:experimental:ooo-ms-interop:xmlns:field:1.0"
+        xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0"
+        xmlns:form="urn:oasis:names:tc:opendocument:xmlns:form:1.0"
+        xmlns:formx="urn:openoffice:names:experimental:ooxml-odf-interop:xmlns:form:1.0"
+        xmlns:grddl="http://www.w3.org/2003/g/data-view#"
+        xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0"
+        xmlns:math="http://www.w3.org/1998/Math/MathML"
+        xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0"
+        xmlns:number="urn:oasis:names:tc:opendocument:xmlns:datastyle:1.0"
+        xmlns:of="urn:oasis:names:tc:opendocument:xmlns:of:1.2"
+        xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0"
+        xmlns:officeooo="http://openoffice.org/2009/office"
+        xmlns:ooo="http://openoffice.org/2004/office"
+        xmlns:oooc="http://openoffice.org/2004/calc"
+        xmlns:ooow="http://openoffice.org/2004/writer"
+        xmlns:rpt="http://openoffice.org/2005/report"
+        xmlns:script="urn:oasis:names:tc:opendocument:xmlns:script:1.0"
+        xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0"
+        xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0"
+        xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0"
+        xmlns:tableooo="http://openoffice.org/2009/table"
+        xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0"
+        xmlns:xforms="http://www.w3.org/2002/xforms"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+        xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        office:mimetype="application/vnd.oasis.opendocument.text"
+        office:version="1.3">
+
+    <office:meta>
+        <meta:user-defined meta:name="Language">English</meta:user-defined>
+    </office:meta>
+
+    <office:styles>
+
+        <style:style
+                style:name="Custom_-_Any_Text"
+                style:display-name="Custom - Any Text"
+                style:family="paragraph">
+            <style:text-properties
+                    fo:font-family="Carlito"
+                    style:font-family-generic="swiss"
+                    style:font-name="Carlito"
+                    style:font-pitch="variable"
+                    style:font-style-name="Regular"/>
+        </style:style>
+
+        <style:style
+                style:name="Custom_-_Any_Heading"
+                style:display-name="Custom - Any Heading"
+                style:family="paragraph"
+                style:parent-style-name="Custom_-_Any_Text">
+            <style:text-properties
+                    fo:font-size="24pt"/>
+        </style:style>
+
+        <style:style
+                style:name="Custom_-_Any_Paragraph"
+                style:display-name="Custom - Any Paragraph"
+                style:family="paragraph"
+                style:parent-style-name="Custom_-_Any_Text">
+            <style:paragraph-properties
+                    fo:text-align="justify"/>
+            <style:text-properties
+                    fo:font-size="12pt"/>
+        </style:style>
+
+        <style:style
+                style:name="Custom_-_Any_Letter_Fields"
+                style:display-name="Custom - Any Letter Fields"
+                style:family="paragraph"
+                style:parent-style-name="Custom_-_Any_Text"/>
+
+        <style:style
+                style:name="Custom_-_Any_Page_Fields"
+                style:display-name="Custom - Any Page Fields"
+                style:family="paragraph"
+                style:parent-style-name="Custom_-_Any_Text">
+            <style:paragraph-properties>
+                <style:tab-stops>
+                    <style:tab-stop style:position="17.5cm" style:type="right"/>
+                </style:tab-stops>
+            </style:paragraph-properties>
+            <style:text-properties
+                    fo:color="#666666"
+                    fo:font-size="10pt"/>
+        </style:style>
+
+        <style:style
+                style:name="Custom_-_Section_Heading"
+                style:display-name="Custom - Section Heading"
+                style:family="paragraph"
+                style:parent-style-name="Custom_-_Any_Heading"
+                style:default-outline-level="1"
+                style:master-page-name="Custom_-_Content_Page">
+            <style:paragraph-properties
+                    fo:break-before="page"
+                    fo:line-height="120%"
+                    fo:margin-bottom="1cm"
+                    fo:text-align="center"/>
+            <style:text-properties
+                    fo:font-size="24pt"
+                    fo:font-style="italic"/>
+        </style:style>
+
+        <style:style
+                style:name="Custom_-_Section_Paragraph"
+                style:display-name="Custom - Section Paragraph"
+                style:family="paragraph"
+                style:parent-style-name="Custom_-_Any_Paragraph">
+            <style:paragraph-properties
+                    fo:line-height="120%"
+                    fo:margin-bottom="0.25cm"
+                    fo:text-indent="0.5cm"/>
+        </style:style>
+
+        <style:style
+                style:name="Custom_-_Section_Paragraph_Extra"
+                style:display-name="Custom - Section Paragraph Extra"
+                style:family="paragraph"
+                style:parent-style-name="Custom_-_Section_Paragraph">
+            <style:text-properties fo:font-style="italic"/>
+        </style:style>
+
+        <style:style
+                style:name="Custom_-_Section_Context"
+                style:display-name="Custom - Section Context"
+                style:family="paragraph"
+                style:parent-style-name="Custom_-_Any_Paragraph"
+                style:next-style-name="Custom_-_Section_Paragraph">
+            <style:paragraph-properties
+                    fo:margin-bottom="0.5cm"
+                    fo:text-align="center"/>
+            <style:text-properties
+                    fo:font-weight="bold"/>
+        </style:style>
+
+        <style:style
+                style:name="Custom_-_Section_Separator"
+                style:display-name="Custom - Section Separator"
+                style:family="paragraph"
+                style:parent-style-name="Custom_-_Any_Text"
+                style:next-style-name="Custom_-_Section_Paragraph">
+            <style:paragraph-properties
+                    fo:margin-bottom="0.25cm"
+                    fo:margin-top="0.25cm"
+                    fo:text-align="center"/>
+        </style:style>
+
+        <style:style
+                style:name="Custom_-_Letter_Anchor"
+                style:display-name="Custom - Letter Anchor"
+                style:family="paragraph"
+                style:master-page-name="Custom_-_Content_Page">
+            <style:text-properties
+                    text:display="none"/>
+        </style:style>
+
+        <style:style
+                style:name="Custom_-_Letter_Fields_For_Sender"
+                style:display-name="Custom - Letter Fields For Sender"
+                style:family="paragraph"
+                style:parent-style-name="Custom_-_Any_Letter_Fields"/>
+
+        <style:style
+                style:name="Custom_-_Letter_Fields_For_Recipient"
+                style:display-name="Custom - Letter Fields For Recipient"
+                style:family="paragraph"
+                style:parent-style-name="Custom_-_Any_Letter_Fields">
+            <style:paragraph-properties
+                    fo:margin-left="10cm"/>
+        </style:style>
+
+        <style:style
+                style:name="Custom_-_Letter_Fields_For_Subject"
+                style:display-name="Custom - Letter Fields For Subject"
+                style:family="paragraph"
+                style:parent-style-name="Custom_-_Any_Letter_Fields"/>
+
+        <style:style
+                style:name="Custom_-_Letter_Fields_For_Location_And_Date"
+                style:display-name="Custom - Letter Fields For Location And Date"
+                style:family="paragraph"
+                style:parent-style-name="Custom_-_Any_Letter_Fields">
+            <style:paragraph-properties
+                    fo:margin-left="10cm"/>
+        </style:style>
+
+        <style:style
+                style:name="Custom_-_Signature"
+                style:display-name="Custom - Signature"
+                style:family="paragraph"
+                style:parent-style-name="Custom_-_Any_Text">
+            <style:paragraph-properties
+                    fo:margin-left="10cm"/>
+        </style:style>
+
+        <style:style
+                style:name="Custom_-_Any_Text"
+                style:display-name="Custom - Any Text"
+                style:family="text">
+            <style:text-properties
+                style:font-name="Carlito"
+                fo:font-family="Carlito"
+                fo:font-size="12pt"/>
+        </style:style>
+
+        <style:style
+                style:name="Custom_-_Any_Text_Extra"
+                style:display-name="Custom - Any Text Extra"
+                style:family="text"
+                style:parent-style-name="Custom_-_Any_Text">
+            <style:text-properties fo:font-style="italic"/>
+        </style:style>
+
+        <style:style
+                style:name="Custom_-_Emphasis"
+                style:display-name="Custom - Emphasis"
+                style:family="text"
+                style:parent-style-name="Custom_-_Any_Text">
+            <style:text-properties
+                    fo:font-style="italic"/>
+        </style:style>
+
+        <style:style
+                style:name="Custom_-_Section_Heading_Prefix"
+                style:display-name="Custom - Section Heading Prefix"
+                style:family="text"
+                style:parent-style-name="Custom_-_Any_Text">
+            <style:text-properties
+                    fo:font-size="20pt"
+                    fo:font-style="normal"/>
+        </style:style>
+
+        <number:date-style
+                style:name="Custom_-_Date_As_Long_Text"
+                style:display-name="Custom - Date As Long Text"
+                number:language="en"
+                number:country="US">
+            <number:day/>
+            <number:text> </number:text>
+            <number:month number:style="long" number:textual="true"/>
+            <number:text> </number:text>
+            <number:year number:style="long"/>
+        </number:date-style>
+
+        <number:date-style
+                style:name="Custom_-_Date_As_Year_Only"
+                style:display-name="Custom - Date As Year Only"
+                number:language="en"
+                number:country="US">
+            <number:year number:style="long"/>
+        </number:date-style>
+
+    </office:styles>
+
+    <office:automatic-styles>
+
+        <style:page-layout
+                style:name="Custom_-_Content_Page_Layout"
+                style:display-name="Custom - Content Page Layout">
+            <style:page-layout-properties
+                    fo:margin-bottom="1.5cm"
+                    fo:margin-left="2cm"
+                    fo:margin-right="2cm"
+                    fo:margin-top="2cm"
+                    fo:page-height="29.7cm"
+                    fo:page-width="21cm"/>
+            <style:footer-style>
+                <style:header-footer-properties
+                        fo:min-height="1cm"
+                        fo:margin-top="0.5cm"/>
+            </style:footer-style>
+        </style:page-layout>
+
+    </office:automatic-styles>
+
+    <office:master-styles>
+
+        <style:master-page
+                style:name="Custom_-_Content_Page"
+                style:display-name="Custom - Content Page"
+                style:page-layout-name="Custom_-_Content_Page_Layout">
+            <style:footer>
+                <text:p text:style-name="Custom_-_Any_Page_Fields"><text:tab/>page <text:page-number text:select-page="current"/> of <text:page-count/></text:p>
+            </style:footer>
+        </style:master-page>
+
+    </office:master-styles>
+
+    <office:body>
+        <office:text>
+            <text:p text:style-name="Custom_-_Letter_Anchor"/>
+            <text:p text:style-name="Custom_-_Letter_Fields_For_Sender">&lt;sender_full_name&gt;</text:p>
+            <text:p text:style-name="Custom_-_Letter_Fields_For_Sender">&lt;sender_address&gt;</text:p>
+            <text:p text:style-name="Custom_-_Letter_Fields_For_Sender">&lt;sender_phone&gt;</text:p>
+            <text:p text:style-name="Custom_-_Letter_Fields_For_Sender">&lt;sender_email&gt;</text:p>
+            <text:p text:style-name="Custom_-_Section_Separator"/>
+            <text:p text:style-name="Custom_-_Letter_Fields_For_Recipient">&lt;recipient&gt;</text:p>
+            <text:p text:style-name="Custom_-_Letter_Fields_For_Recipient">&lt;recipient_address&gt;</text:p>
+            <text:p text:style-name="Custom_-_Section_Separator"/>
+            <text:p text:style-name="Custom_-_Letter_Fields_For_Subject">Reference: &lt;reference&gt;</text:p>
+            <text:p text:style-name="Custom_-_Letter_Fields_For_Subject">Subject: &lt;subject&gt;</text:p>
+            <text:p text:style-name="Custom_-_Section_Separator"/>
+            <text:p text:style-name="Custom_-_Letter_Fields_For_Location_And_Date">&lt;location and date&gt;</text:p>
+            <text:p text:style-name="Custom_-_Section_Separator"/>
+            <text:p text:style-name="Custom_-_Section_Paragraph">&lt;letter_content&gt;</text:p>
+            <text:p text:style-name="Custom_-_Section_Separator"/>
+            <text:p text:style-name="Custom_-_Signature">&lt;signature&gt;</text:p>
+        </office:text>
+    </office:body>
+
+</office:document>
