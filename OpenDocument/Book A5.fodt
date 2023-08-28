@@ -307,12 +307,12 @@
                 style:name="Custom_-_Content_Page_Layout"
                 style:display-name="Custom - Content Page Layout">
             <style:page-layout-properties
-                    fo:margin-bottom="1.5cm"
-                    fo:margin-left="2cm"
-                    fo:margin-right="2cm"
-                    fo:margin-top="2cm"
-                    fo:page-height="29.7cm"
-                    fo:page-width="21cm"/>
+                    fo:margin-bottom="0.5cm"
+                    fo:margin-left="1cm"
+                    fo:margin-right="1cm"
+                    fo:margin-top="1cm"
+                    fo:page-height="21cm"
+                    fo:page-width="14.8cm"/>
             <style:footer-style>
                 <style:header-footer-properties
                         fo:min-height="1cm"
