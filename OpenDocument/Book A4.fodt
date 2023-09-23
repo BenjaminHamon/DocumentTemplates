@@ -156,7 +156,8 @@
                 style:family="paragraph"
                 style:parent-style-name="Custom_-_Any_Heading"
                 style:default-outline-level="1"
-                style:master-page-name="Custom_-_Content_Page">
+                style:master-page-name="Custom_-_Content_Page"
+                style:next-style-name="Custom_-_Section_Paragraph">
             <style:paragraph-properties
                     fo:break-before="page"
                     fo:line-height="120%"
